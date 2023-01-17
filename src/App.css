@@ -1,0 +1,26 @@
+body {
+    font-size: 16;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button-container {
+    margin-top: 1em;
+}
+
+.button-container > button {
+    font-size: 1em;
+    margin-right: .2em;
+    border-width: .5px;
+    border-radius: 5px;
+    padding: .4em .5em;
+}
+
+.button-container > button.button-orange {
+    background-color: rgb(255, 94, 0);
+    color:white;
+}
+
+input {
+    padding: .4em .5em;
+    font-size: 1em;
+}
